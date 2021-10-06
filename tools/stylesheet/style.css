@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+.header_container {
+  background-image: url(../images/bg-main_visual.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 450px;
+  width:100%;
+  position: relative;
+}
+
+.header_logo {
+  background-image: url(../images/logo-work_with.svg);
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 300px;
+  position: absolute; 
+  top: 320px;
+  left: 60px;
+}
+
+.sectionTitle {
+  font-size: 32px;
+  font-weight: bolder;
+  margin-bottom: 50px;
+  color: #333;
+  text-align: center;
+  font-family: "游ゴシック体", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: 1s;
+}
+
+.sectionTitle.show,
+.section_text.show,
+.work_item.show,
+.company_item.show {
+  opacity: 1;
+  transform: none;
+}
+
+section {
+  padding: 100px 50px;
+}
+
+.container {
+  max-width: 1260px;
+}
+
+.section_text {
+  font-size: 16px;
+  line-height: 2;
+  color: #333;
+  text-align: center;
+  font-family: "游ゴシック体", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: 1s;
+}
+
+.introduction {
+  background-color: #fffff3
+}
+
+.work {
+  background-image: url(../images/bg-content.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.work .section_title {
+  color: #fff;
+}
+
+.work_listWrap {
+  background-color: rgb(0,0,0,0.3);
+  margin: 0 auto;
+}
+
+.work_list {
+  background-color: #fffff3;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.work_item {
+  opacity: 0;
+  transition: 1s;
+}
+
+.work_list--textWrap {
+  padding: 35px 20px;
+}
+
+.work_firstPicture {
+  background-image: url(../images/img-working.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.work_secondPicture {
+  background-image: url(../images/img-meeting_room.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.work_thirdPicture {
+  background-image: url(../images/img-drip_machine.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.work_fourthPicture {
+  background-image: url(../images/img-bar_w2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.work_list--title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  font-family: "游ゴシック体", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+  margin-bottom: 30px;
+}
+
+.work_list--text {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  font-family: "游ゴシック体", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+}
+
+.company {
+  background-color: #fffff3;
+}
+
+.company_list {
+  padding-top: 80px;
+  margin: 0 auto;
+}
+
+.company_item {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: 1s;
+}
+
+.company_item img {
+  width: 100%;
+}
+
+.footer_container {
+  background-color: #000;
+  padding: 25px 0;
+  position: relative;
+}
+
+.footer_copyright {
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+}
+
+.footer_nav {
+  position: absolute;
+  top: 25px;
+  right: 20px;
+}
+
+.footer_nav ul {
+  display: flex;
+}
+
+.footer_nav li:last-child{
+  margin-left: 20px;
+}
+
+.footer_nav a {
+  color: #fff;
+  font-size: 11px;
+}

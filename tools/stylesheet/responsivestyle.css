@@ -40,7 +40,11 @@
     width: 50%;
   }
   
-  
+  .footer_nav {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  }  
 }
 
 @media screen and (min-width: 769px) {
@@ -73,5 +77,11 @@
 
   .company_item {
     width: 22%;
+  }
+  
+  .footer_nav {
+  position: absolute;
+  top: 25px;
+  right: 20px;
   }
 }

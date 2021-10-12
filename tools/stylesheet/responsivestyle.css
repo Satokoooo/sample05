@@ -40,6 +40,10 @@
     width: 50%;
   }
   
+  .footer_container {
+  padding: 40px 0;
+  }
+  
   .footer_nav {
   position: absolute;
   top: 60px;
